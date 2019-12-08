@@ -1,0 +1,23 @@
+{
+  "name": "j-ide",
+  "version": "1.0.0",
+  "description": "a web-based ide",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cedricpriestley/j-ide.git"
+  },
+  "keywords": [
+    "web-based",
+    "ide"
+  ],
+  "author": "Cedric Priestley",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/cedricpriestley/j-ide/issues"
+  },
+  "homepage": "https://github.com/cedricpriestley/j-ide#readme"
+}
