@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/cedricpriestley/j-ide/issues"
   },
-  "homepage": "https://github.com/cedricpriestley/j-ide#readme"
+  "homepage": "https://github.com/cedricpriestley/j-ide#readme",
+  "dependencies": {
+    "lit-element": "^2.2.1",
+    "xterm": "^4.3.0"
+  }
 }
