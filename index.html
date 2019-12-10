@@ -56,6 +56,12 @@
     }
   </script>
   <script type="module" src="js/main.js"></script>
+  <script>
+    window.onerror = handleError;
+    function handleError(err, url, line){
+      alert(err + '\n on page: ' + url + '\n on line: ' + line);
+    }  
+  </script>
 </body>
 
 </html>
