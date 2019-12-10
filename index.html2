@@ -1,0 +1,8 @@
+<!doctype html>
+  <html>
+    <head>
+      <link rel="stylesheet" href="node_modules/xterm/css/xterm.css" />
+    </head>
+    <body>
+    </body>
+  </html>
