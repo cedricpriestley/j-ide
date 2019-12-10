@@ -20,11 +20,11 @@ export default class App extends HTMLElement {
         term.open(document.getElementById('terminal'));
         term.write('Hello from \x1B[1;3;31mxterm.js\x1B[0m $ ')
       </script>
-// <my-counter value="100" step="5" max="150" min="2"></my-counter>
+   <my-counter value="100" step="5" max="150" min="2"></my-counter>
       </main>
       <footer>
       </footer>
       `;
   }
 }
-customElements.define('my-app', MyApp);
+customElements.define('app', App);
