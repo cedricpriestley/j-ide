@@ -6,7 +6,7 @@ export default class App extends HTMLElement {
     // Attach a shadow root to the element.
     let shadowRoot = this.attachShadow({ mode: 'open' });
     shadowRoot.innerHTML = `
-      <link rel="stylesheet" href="node_modules/xterm/css/xterm.css" />
+      <link rel="stylesheet" href="../../node_modules/xterm/css/xterm.css" />
       <style>
       </style>
       <script src="../../node_modules/xterm/lib/xterm.js"></script>
